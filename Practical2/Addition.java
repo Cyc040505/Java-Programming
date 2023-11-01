@@ -6,6 +6,7 @@ public class Addition {
         int start = sc.nextInt();
         System.out.println("end:");
         int end = sc.nextInt();
+        sc.close();
         if(start>end) {
             System.out.println("wrong datas input");
         }
